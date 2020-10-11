@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.background{
+  background-image: linear-gradient(135deg, #012c10 ,#282c34) ;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputDiv{
+  padding: 10px;
+  width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loginBtnDiv{
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.loginBtn{
+  border-radius: 1;
+  width: 10em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginHeader{
+  background: -webkit-linear-gradient(#012c10, #282c34);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: linear-gradient(135deg, #012c10 ,#282c34)  ; */
+}
+
+.animScroller{
+  /* background-color: #28362b; */
+  background-color: #242624;
+  /* background-image: linear-gradient(135deg, #A9A9A9 ,#282c34) ; */
+  height: 20em;
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  right: 20px;
+  border: #364a3a solid 1px;
+  border-radius: 3px;
+  box-shadow: "3px 7px";
 }
